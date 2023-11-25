@@ -4,6 +4,7 @@ import Why from '@/components/Why'
 import Technologies from '@/components/Technologies'
 import Image from 'next/image'
 import OurServices from '@/components/OurServices'
+import OurProject from '@/components/OurProject'
 
 export default function Home() {
   return (
@@ -13,9 +14,7 @@ export default function Home() {
     <Technologies/>
     <Why/>
     <OurServices/>
-
-
-
+    <OurProject/>
 
   </>
   )
