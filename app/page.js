@@ -5,6 +5,7 @@ import Technologies from '@/components/Technologies'
 import Image from 'next/image'
 import OurServices from '@/components/OurServices'
 import OurProject from '@/components/OurProject'
+import ContactUs from '@/components/ContactUs'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Why/>
     <OurServices/>
     <OurProject/>
+    <ContactUs/>
 
   </>
   )
