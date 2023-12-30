@@ -19,7 +19,7 @@ function Why() {
           </div>
 
           <div className="w-full max-w-[1024px] mt-20 mb-[-60px] mx-auto flex justify-between">
-            <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
+            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="service.png" alt="" className="w-[40px]" />
                 <h3 className="">Service1</h3>
@@ -29,7 +29,7 @@ function Why() {
               </div>
             </div>
 
-            <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
+            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="24.png" alt="" className="w-[40px]" />
                 <h3 className="">Service2</h3>
@@ -39,7 +39,7 @@ function Why() {
               </div>
             </div>
 
-            <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
+            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="login.png" alt="" className="w-[40px]" />
                 <h3 className="">Service3</h3>
