@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -8,13 +9,23 @@ function Navbar() {
           <Image src="/L2.png" alt="ondevx logo" width={128} height={47} />
 
           <ul className="flex gap-7 text-base items-center">
-            <li className="">Home</li>
-            <li className="">Services</li>
-            <li className="">Clients</li>
-            <li className="">About</li>
+            <li className="">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="">
+              <Link href="#services">Our Services</Link>
+            </li>
+            <li className="">
+              <Link href="#projects">Our Projects</Link>
+            </li>
+            <li className="">
+              <Link href="#about">About</Link>
+            </li>
 
             <li className="bg-gradient-to-r from-[#2DABE1] to-[#2D4AE1] px-5 py-2 rounded-br-lg rounded-tl-lg rounded">
-              <button>Contact Us</button>
+              <Link href="#contact-us">
+                <button>Contact Us</button>
+              </Link>
             </li>
           </ul>
         </div>
