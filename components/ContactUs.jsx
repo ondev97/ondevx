@@ -5,12 +5,12 @@ import contactUs from "../public/images/contactUs.png";
 const ContactUs = () => {
   return (
     <div className="bg-[#F6F7FF]">
-      <div className="mt-10 w-full max-w-[1024px] mx-auto py-4 ">
+      <div className="mt-10 w-full max-w-[1024px] px-4 mx-auto py-4 ">
         <div>
           <h1 className="text-[40px] font-bold text-[#032254]">Contact Us</h1>
         </div>
         <div className="flex items-center gap-6">
-          <div className="flex-1">
+          <div className="flex-1 md:block hidden">
             <Image src={contactUs} alt="contact us svg" />
           </div>
           <div className="flex-1">

@@ -7,13 +7,15 @@ import Footer from '@/components/Footer'
 import OurProject from '@/components/OurProject'
 import ContactUs from '@/components/ContactUs'
 
+
 export default function Home() {
   return (
   <>
-    <Navbar/>
+    {/*<Navbar/>*/}
     <Hero/>
     <Technologies/>
-    <Why/>
+    {/*<Why/>*/}
+    
     <OurServices/>
     <OurProject/>
     <ContactUs/>

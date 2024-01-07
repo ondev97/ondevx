@@ -21,7 +21,7 @@ export default function OurProject() {
           "linear-gradient(303deg, rgba(75,175,254, / 18%) 0%, rgba(255,255,255,0) 44%)",
       }}
     >
-      <div className="mt-10 w-full max-w-[1024px] mx-auto py-4">
+      <div className="mt-10 w-full max-w-[1024px] mx-auto px-4 py-4">
         <div>
           <h1 className="text-[40px] font-bold text-[#032254]">Our Projects</h1>
           <p>
@@ -87,7 +87,7 @@ export default function OurProject() {
           </Swiper>
           <div>
             <button
-              className="absolute -right-14 top-[50%] translate-y-[-50%] z-10"
+              className="absolute hidden px-4 sm:block sm:-right-14 sm:top-[50%] sm:translate-y-[-50%] z-10"
               onClick={() => swiperRef.current.slideNext()}
             >
               <img
@@ -96,7 +96,7 @@ export default function OurProject() {
               />
             </button>
             <button
-              className="absolute -left-14 top-[50%] translate-y-[-50%] z-10"
+              className="absolute px-4 hidden sm:block sm:-left-14 sm:top-[50%] sm:translate-y-[-50%] z-10"
               onClick={() => swiperRef.current.slidePrev()}
             >
               <img src="/images/left-button.png" alt="left hand side button" />

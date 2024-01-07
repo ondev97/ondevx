@@ -5,24 +5,23 @@ import Image from "next/image";
 function Why() {
   return (
     //Head Title
-    <div className="w-full bg-[#F6F9FF] ">
-      <div className="w-full h-[452px] bg-white pt-16 rounded-tl-[350px] rounded-br-[350px]">
+    <div className="w-full bg-[#F6F9FF]">
+      <div className="w-full h-[452px] bg-white pt-16 md:rounded-tl-[350px] md:rounded-br-[350px] sm:rounded-tl-[150px] sm:rounded-br-[150px] rounded-tl-[150px] rounded-br-[150px]">
         <div className="w-full max-w-[1024px] mx-auto">
-          <div className="w-[500px] mx-auto">
-            <h1 className="text-center text-[40px] text-[#032254] font-bold">
+          <div className="md:w-[500px] sm:w-[400px] w-[300px] mx-auto">
+            <h1 className="text-center text-[2rem] md:text-5xl  text-[#032254] font-bold">
               Why Choose <span className="text-[#2DABE1]">OndevX</span>
             </h1>
-            <p className="text-center text-[#5C636D]">
-              Lorem ipsum dolor sit amet consectetur. Urna augue sed gravida
-              nibh elementum fermentum at.
+            <p className="mt-4 text-center text-[#5C636D]">
+            Ondevx Technologies is your dedicated partner in success,not just a provider of services.
             </p>
           </div>
 
-          <div className="w-full max-w-[1024px] mt-20 mb-[-60px] mx-auto flex justify-between">
+          <div className="w-full max-w-[1024px] mt-20 mb-[-60px] justify-center grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 place-items-center">
             <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="service.png" alt="" className="w-[40px]" />
-                <h3 className="">Service1</h3>
+                <h3 className="text-[#032254] font-bold">Expertise Beyond Boundaries</h3>
               </div>
               <div className="mx-[20px] my-[40px]">
                 ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
@@ -32,7 +31,7 @@ function Why() {
             <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="24.png" alt="" className="w-[40px]" />
-                <h3 className="">Service2</h3>
+                <h3 className="text-[#032254] font-bold">Innovation at Every Turn</h3>
               </div>
               <div className="mx-[20px] my-[40px]">
                 ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
@@ -42,7 +41,7 @@ function Why() {
             <div className="w-[297px] h-[233px] shadow-xl bg-[#F6F8FF] rounded-[20px]">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="login.png" alt="" className="w-[40px]" />
-                <h3 className="">Service3</h3>
+                <h3 className="text-[#032254] font-bold">Our Mission, Your Success</h3>
               </div>
               <div className="mx-[20px] my-[40px]">
                 ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
@@ -52,8 +51,8 @@ function Why() {
         </div>
       </div>
 
-      <div className="w-full max-w-[1024px] mx-auto">
-        <div className="pt-28 grid grid-cols-2 relative">
+      {/*<div className="w-full flex max-w-[1024px] mx-auto">
+        <div className="pt-28 grid grid-cols-2 sm:grid-cols-1 relative">
           <div>
             <p>
               We work as a team to transform your idea into a virtual reality
@@ -74,7 +73,7 @@ function Why() {
             <div className="absolute top-[50%] left-[30%] w-[250px] h-[200px] bg-purple-700 blur-[110px]"></div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }

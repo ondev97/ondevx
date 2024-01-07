@@ -11,7 +11,7 @@ function Technologies() {
     <>
       <div className="w-full bg-[#F6F9FF]">
         <div className="w-full max-w-[1024px] mx-auto py-14 flex justify-center relative">
-          <div className="w-full flex justify-between items-center">
+          <div className="w-full flex justify-around flex-wrap gap-5 items-center">
             <div className="min-w-[65px] min-h-[65px] relative overflow-hidden">
               <Image
                 src={dockerLogo}
