@@ -8,7 +8,7 @@ function Navbar() {
         <div className="flex justify-between items-center max-w-[1024px] mx-auto px-4 h-24 text-white">
           <Image src="/L2.png" alt="ondevx logo" width={128} height={47} />
 
-          <ul className="flex gap-7 text-base items-center">
+          <ul className="hidden md:flex gap-7 text-base items-center">
             <li className="">
               <Link href="/">Home</Link>
             </li>
