@@ -11,14 +11,13 @@ function Hero() {
           <Image
             src={HeroImage}
             alt="hero image"
-            fill
             priority
-            className="opacity-75 brightness-50"
+            className="opacity-75 brightness-50 w-full h-full object-cover"
           />
         </div>
 
-        <div className="max-w-[1024px] mx-auto px-4 ">
-          <div className="absolute top-[40%] w-full max-w-[800px] flex flex-col">
+        <div className="lg:max-w-[800px] mx-auto px-4 absolute top-[50%] md:left-[50%] md:translate-x-[-50%] translate-y-[-50%]">
+          <div className="w-full flex flex-col">
             <h3 className="md:text-[20px] text-[16px] text-white">
               Welcome to <span className="text-[#2DABE1]">OndevX</span>{" "}
               Technologies
