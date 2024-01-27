@@ -51,6 +51,12 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 640px) {
+  .swiper-slide {
+    width: 100% !important;
+  }
+}
+
 .swiper-button-prev {
   background-image: url("../public/images/right-button.png") !important;
 }
