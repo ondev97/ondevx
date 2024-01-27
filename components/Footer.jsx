@@ -20,12 +20,12 @@ function Footer() {
     <>
       <div className="w-Full bg-[#032254]">
         <footer className="w-full max-w-[1024px] mx-auto bg-slate-20">
-          <div className="pt-7 text-slate-50 flex justify-between">
-            <div className="">
+          <div className="pt-7 px-4 lg-mx-0 text-slate-50 flex justify-between flex-wrap md:flex-nowrap gap-4">
+            <div className="w-full md:w-[200px]">
               <div>
                 <img className="w-24 mb-7" src="L2.png" alt="" />
               </div>
-              <div className="mb-7">
+              <div className="mb-7 text-sm">
                 elit.Obcaecati eaquuptatem nulla ullam magnam minima! Iusto,{" "}
               </div>
               <div className="flex gap-7">
@@ -59,33 +59,45 @@ function Footer() {
               <div className="mb-7 text-[18px]">Navigation</div>
               <div className="list-none">
                 <li className="mb-2">
-                  <Link href="./">Home</Link>
+                  <Link href="./" className="text-sm">
+                    Home
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="#services">Our Services</Link>
+                  <Link href="#services" className="text-sm">
+                    Our Services
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="#projects">Our project</Link>
+                  <Link href="#projects" className="text-sm">
+                    Our project
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="#about">About</Link>
+                  <Link href="#about" className="text-sm">
+                    About
+                  </Link>
                 </li>
               </div>
             </div>
             <div className="">
-              <div className="mb-7 text-[18px]">Contacts</div>
-              <div className="mb-2">+94 123 456 456</div>
-              <div className="mb-2">contact@ondevx.com</div>
-              <div className="mb-2">contact@ondevx.com</div>
+              <div className="mb-7 text-[18px] text-sm">Contacts</div>
+              <div className="mb-2 text-sm">+94 123 456 456</div>
+              <div className="mb-2 text-sm">contact@ondevx.com</div>
+              <div className="mb-2 text-sm">contact@ondevx.com</div>
             </div>
           </div>
           <div>
-            <div className="flex justify-between text-white mt-7 border-t-2 pt-7 pb-2">
+            <div className="flex justify-between text-white mt-7 border-t-2 pt-7 pb-2 px-4 lg-mx-0">
               <div>
-                <a href="">Copyright © 2024 ondevx. All Rights Reserved.</a>
+                <a href="" className="text-xs md:text-sm">
+                  Copyright © 2024 ondevx. All Rights Reserved.
+                </a>
               </div>
               <div>
-                <a href="">User Terms & Conditions | Privacy Policy</a>
+                <a href="" className="text-xs md:text-sm">
+                  User Terms & Conditions | Privacy Policy
+                </a>
               </div>
             </div>
           </div>

@@ -18,8 +18,8 @@ function Why() {
             </p>
           </div>
 
-          <div className="w-full max-w-[1024px] lg:mt-20 lg:mb-[-60px] mx-auto lg:flex lg:justify-between px-5 flex-wrap">
-            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
+          <div className="w-full max-w-[1024px] mt-5 lg:mt-20 lg:mb-[-60px] mx-auto sm:flex sm:justify-between px-5 flex-wrap gap-y-2">
+            <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="service.png" alt="" className="w-[40px]" />
                 <h3 className="">Service1</h3>
@@ -29,7 +29,7 @@ function Why() {
               </div>
             </div>
 
-            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
+            <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="24.png" alt="" className="w-[40px]" />
                 <h3 className="">Service2</h3>
@@ -39,7 +39,7 @@ function Why() {
               </div>
             </div>
 
-            <div className="w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
+            <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="login.png" alt="" className="w-[40px]" />
                 <h3 className="">Service3</h3>
@@ -52,8 +52,8 @@ function Why() {
         </div>
       </div>
 
-      <div className="w-full max-w-[1024px] mx-auto">
-        <div className="w-full pt-28 grid lg:grid-cols-2 relative">
+      <div className="w-full max-w-[1024px] mb-3 lg:mb-0 mx-auto">
+        <div className="w-full py-5 md:pt-28 md:pb-0 grid lg:grid-cols-2 relative">
           <div className="w-full px-4 lg:px-0">
             <p>
               We work as a team to transform your idea into a virtual reality

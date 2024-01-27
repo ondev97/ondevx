@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="absolute w-full z-20">
-        <div className="flex justify-between items-center max-w-[1024px] mx-auto px-4 h-24 text-white">
+        <div className="flex justify-center md:justify-between items-center max-w-[1024px] mx-auto px-4 h-24 text-white">
           <Image src="/L2.png" alt="ondevx logo" width={128} height={47} />
 
           <ul className="hidden md:flex gap-7 text-base items-center">

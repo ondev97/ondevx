@@ -15,7 +15,7 @@ export default function OurProject() {
   const swiperRef = useRef();
   return (
     <div className="our-project-redial-bg relative" id="projects">
-      <div className="w-full max-w-[1024px] mx-auto py-12">
+      <div className="w-full max-w-[1024px] mx-auto py-12 px-4 ">
         <div>
           <h1 className="text-[40px] font-bold text-[#032254]">Our Projects</h1>
           <p>
@@ -25,14 +25,12 @@ export default function OurProject() {
         </div>
         <div className="mt-16 relative">
           <Swiper
-            spaceBetween={50}
-            slidesPerView={"auto"}
+            spaceBetween={10}
+            slidesPerView={1}
             loop={true}
             observer={true}
             observeParents={true}
             parallax={true}
-            initialSlide={2}
-            centeredSlides
             pagination={true}
             navigation={{
               nextEl: ".swiper-button-next",
@@ -46,44 +44,52 @@ export default function OurProject() {
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             className="mySwiper"
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: "auto",
+                spaceBetween: 50,
+              },
+            }}
           >
-            <div className="max-w-[900px]">
-              <SwiperSlide>
-                <div className=" bg-slate-500 min-h-[291px]">
-                  <Image
-                    src={Project1}
-                    alt="Project1"
-                    fill
-                    priority
-                    loading="eager"
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className=" bg-slate-500 min-h-[291px]">
-                  <Image
-                    src={Project2}
-                    alt="Project2"
-                    fill
-                    priority
-                    loading="eager"
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className=" bg-slate-500 min-h-[291px]">
-                  <Image
-                    src={Project3}
-                    alt="Project3"
-                    fill
-                    priority
-                    loading="eager"
-                  />
-                </div>
-              </SwiperSlide>
-            </div>
+            <SwiperSlide>
+              <div className=" bg-slate-500 min-h-[291px]">
+                <Image
+                  src={Project1}
+                  alt="Project1"
+                  fill
+                  priority
+                  loading="eager"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className=" bg-slate-500 min-h-[291px]">
+                <Image
+                  src={Project2}
+                  alt="Project2"
+                  fill
+                  priority
+                  loading="eager"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className=" bg-slate-500 min-h-[291px]">
+                <Image
+                  src={Project3}
+                  alt="Project3"
+                  fill
+                  priority
+                  loading="eager"
+                />
+              </div>
+            </SwiperSlide>
           </Swiper>
-          <div>
+          <div className="hidden xl:block">
             <button
               className="absolute -right-14 top-[50%] translate-y-[-50%] z-10"
               onClick={() => swiperRef.current.slideNext()}
