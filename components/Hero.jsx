@@ -25,6 +25,11 @@ function Hero() {
             <h1 className="font-bold text-[36px] md:text-[48px] text-white">
               Let’s Create an Outstanding Product
             </h1>
+            <p className="text-base text-white">
+              Elevate your business with us. Tailored software, secure cloud
+              solutions, and seamless AI integration for a smarter future.
+              Welcome to a new era with OndevX.
+            </p>
             <Link href="#" className="mt-4 flex items-center gap-3">
               <h3 className="text-white md:text-[16px] text-[14px] ">
                 Learn More

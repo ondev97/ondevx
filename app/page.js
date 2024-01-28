@@ -7,6 +7,10 @@ import Footer from '@/components/Footer'
 import OurProject from '@/components/OurProject'
 import ContactUs from '@/components/ContactUs'
 
+export const metadata = {
+title: 'OndevX Technologies'
+}
+
 export default function Home() {
   return (
   <>
