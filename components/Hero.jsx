@@ -16,8 +16,8 @@ function Hero() {
           />
         </div>
 
-        <div className="lg:max-w-[800px] mx-auto px-4 absolute top-[50%] md:left-[50%] md:translate-x-[-50%] translate-y-[-50%]">
-          <div className="w-full flex flex-col">
+        <div className="lg:w-[1024px] mx-auto px-4 absolute top-[50%] md:left-[50%] md:translate-x-[-50%] translate-y-[-50%]">
+          <div className="lg:max-w-[800px] flex flex-col">
             <h3 className="md:text-[20px] text-[16px] text-white">
               Welcome to <span className="text-[#2DABE1]">OndevX</span>{" "}
               Technologies
@@ -30,12 +30,12 @@ function Hero() {
               solutions, and seamless AI integration for a smarter future.
               Welcome to a new era with OndevX.
             </p>
-            <Link href="#" className="mt-4 flex items-center gap-3">
+            {/* <Link href="#" className="mt-4 flex items-center gap-3">
               <h3 className="text-white md:text-[16px] text-[14px] ">
                 Learn More
               </h3>
               <FaArrowRight color="white" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

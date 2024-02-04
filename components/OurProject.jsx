@@ -107,10 +107,10 @@ export default function OurProject() {
             </button>
           </div>
         </div>
-        <div className="flex mt-10 gap-3">
+        {/* <div className="flex mt-10 gap-3">
           <div className="">SEE MORE</div>
           <img src="arrow.png" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
