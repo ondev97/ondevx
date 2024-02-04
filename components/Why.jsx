@@ -5,7 +5,7 @@ import Image from "next/image";
 function Why() {
   return (
     //Head Title
-    <div className="w-full bg-[#F6F9FF] ">
+    <div className="w-full bg-[#F6F9FF]" id="whyChoose">
       <div className="w-full lg:h-[452px] bg-white pb-16 pt-16 lg:rounded-tl-[350px] lg:rounded-br-[350px] lg:pb-0">
         <div className="w-full max-w-[1024px] mx-auto">
           <div className="lg:w-[500px] mx-auto">
@@ -13,8 +13,8 @@ function Why() {
               Why Choose <span className="text-[#2DABE1]">OndevX</span>
             </h1>
             <p className="text-center text-[#5C636D]">
-              Lorem ipsum dolor sit amet consectetur. Urna augue sed gravida
-              nibh elementum fermentum at.
+              At OndevX, we pride ourselves on delivering excellence in every
+              aspect
             </p>
           </div>
 
@@ -22,30 +22,39 @@ function Why() {
             <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="service.png" alt="" className="w-[40px]" />
-                <h3 className="">Service1</h3>
+                <h3 className="">Innovation Beyond Limits</h3>
               </div>
-              <div className="mx-[20px] my-[40px]">
-                ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
+              <div className="mx-[20px] my-[10px] text-sm text-all">
+                Discover limitless possibilities at Ondevx Technologies. Our
+                skilled team blends technical expertise with creative flair,
+                ensuring your projects exceed expectations. Experience
+                outstanding results with us.
               </div>
             </div>
 
             <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="24.png" alt="" className="w-[40px]" />
-                <h3 className="">Service2</h3>
+                <h3 className="">Innovation Unleashed</h3>
               </div>
-              <div className="mx-[20px] my-[40px]">
-                ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
+              <div className="mx-[20px] my-[10px] text-sm text-all">
+                Choose Ondevx Technologies for a transformative journey in
+                digital solutions. Beyond developers, we're innovators crafting
+                AI advancements and user-friendly interfaces. Every turn with us
+                opens new possibilities.
               </div>
             </div>
 
             <div className="w-full md:w-[297px] h-[233px] shadow-lg hover:shadow-xl bg-[#F6F8FF] rounded-[20px] transition-shadow duration-300 ease-out mx-auto">
               <div className="flex gap-7 items-center m-[20px]">
                 <img src="login.png" alt="" className="w-[40px]" />
-                <h3 className="">Service3</h3>
+                <h3 className="">Your Success</h3>
               </div>
-              <div className="mx-[20px] my-[40px]">
-                ghjkgdgh hjkghdjh hjkhdghjk hjkhjk hjh
+              <div className="mx-[20px] my-[10px] text-sm text-all">
+                At Ondevx Technologies, we're more than service providers –
+                we're your dedicated success partner. Choose us for a
+                collaborative journey where our unwavering focus is ensuring
+                your organization thrives online.
               </div>
             </div>
           </div>
@@ -63,10 +72,10 @@ function Why() {
               customers.
             </p>
 
-            <div className="flex mt-10 gap-3">
+            {/* <div className="flex mt-10 gap-3">
               <div className="">Learn More</div>
               <img src="arrow.png" alt="" />
-            </div>
+            </div> */}
           </div>
 
           <div className="relative hidden lg:block">

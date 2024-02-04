@@ -26,9 +26,11 @@ function Footer() {
                 <img className="w-24 mb-7" src="L2.png" alt="" />
               </div>
               <div className="mb-7 text-sm">
-                elit.Obcaecati eaquuptatem nulla ullam magnam minima! Iusto,{" "}
+                Elevate your business with us. Tailored software, secure cloud
+                solutions, and seamless AI integration for a smarter future.
+                Welcome to a new era with OndevX.
               </div>
-              <div className="flex gap-7">
+              <div className="flex gap-7 hidden">
                 <a href="www.facebook.com">
                   <FontAwesomeIcon
                     icon={faFacebook}
@@ -74,7 +76,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="#about" className="text-sm">
+                  <Link href="#whyChoose" className="text-sm">
                     About
                   </Link>
                 </li>
@@ -82,8 +84,6 @@ function Footer() {
             </div>
             <div className="">
               <div className="mb-7 text-[18px] text-sm">Contacts</div>
-              <div className="mb-2 text-sm">+94 123 456 456</div>
-              <div className="mb-2 text-sm">contact@ondevx.com</div>
               <div className="mb-2 text-sm">contact@ondevx.com</div>
             </div>
           </div>
