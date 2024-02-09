@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .hero-gradient {
   background: rgb(15, 13, 51);
   background: linear-gradient(
@@ -43,8 +47,32 @@
 
 .swiper-slide {
   width: 547px !important;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 640px) {
+  .swiper-slide {
+    width: 100% !important;
+  }
 }
 
 .swiper-button-prev {
   background-image: url("../public/images/right-button.png") !important;
+}
+
+/* Backgrounds */
+.our-project-redial-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: rgb(75, 175, 254);
+  background: radial-gradient(
+    circle,
+    rgba(75, 175, 254, 0.18820028011204482) 0%,
+    rgba(255, 255, 255, 0) 81%
+  );
 }
