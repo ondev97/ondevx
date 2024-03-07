@@ -39,8 +39,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - name: List directories
+        run: ls
+
       - name: Deploy to S3
-        run: aws s3 sync ./out s3://${{ vars.s3_bucket_name }}
+        run: aws s3 sync out/ s3://${{ vars.s3_bucket_name }}
 
       - name: Invalidate CloudFront Cache
         run: aws cloudfront create-invalidation --distribution-id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
