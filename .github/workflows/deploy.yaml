@@ -3,7 +3,7 @@ name: Build and Deploy NextJS App to S3 and CloudFront
 on:
   push:
     branches:
-      - dev
+      - feature/github-actions
 
 permissions:
   id-token: write
@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 20
 
       - name: Install Yarn
         run: npm install -g yarn
@@ -40,7 +40,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3
-        run: aws s3 sync ./out s3://yourbucketname
+        run: aws s3 sync ./out {{ vars.s3_bucket_name }}
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
