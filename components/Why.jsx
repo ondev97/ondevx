@@ -39,7 +39,7 @@ function Why() {
               </div>
               <div className="mx-[20px] my-[10px] text-sm text-all">
                 Choose Ondevx Technologies for a transformative journey in
-                digital solutions. Beyond developers, we're innovators crafting
+                digital solutions. Beyond developers, we&#39;re innovators crafting
                 AI advancements and user-friendly interfaces. Every turn with us
                 opens new possibilities.
               </div>
@@ -51,8 +51,8 @@ function Why() {
                 <h3 className="">Your Success</h3>
               </div>
               <div className="mx-[20px] my-[10px] text-sm text-all">
-                At Ondevx Technologies, we're more than service providers –
-                we're your dedicated success partner. Choose us for a
+                At Ondevx Technologies, we&#39;re more than service providers –
+                we&#39;re your dedicated success partner. Choose us for a
                 collaborative journey where our unwavering focus is ensuring
                 your organization thrives online.
               </div>

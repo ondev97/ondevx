@@ -15,8 +15,8 @@ function Clients() {
     <>
     <div className='w-3/4 m-auto'>
         <div className='mt-20'>
-            {data.map((d) => (
-                <div className='bg-white h-[450px] text-black rounded-xl'>
+            {data.map((d,index) => (
+                <div key={index} className='bg-white h-[450px] text-black rounded-xl'>
                     <div className='h-56 rounded-t-xl bg-indigo-500 flex justify-center items-center'>
                         <img src={d.img} alt='' className='h-44 w-44 rounded-full'/>
                     </div>
