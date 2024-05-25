@@ -84,7 +84,7 @@ function Footer() {
             </div>
             <div className="">
               <div className="mb-7 text-[18px] text-sm">Contacts</div>
-              <div className="mb-2 text-sm">contact@ondevx.com</div>
+              <div className="mb-2 text-sm">info@ondevx.com</div>
             </div>
           </div>
           <div>
